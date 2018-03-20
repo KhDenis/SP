@@ -1,17 +1,35 @@
 
+ a:hover, a:link, a:visited,a:active {
+ 	text-decoration: none;
+ 	color: black;
+ }
+ h1 {
 
-h1 {
 	text-align: center;
+	height: 5%;
 }
 
-table { 
+ p {
+ 	vertical-align: top;
+	text-align: center;
+
+}
+
+ table {
+    font-size: 25px; 
+	width: 75%;
+	height: 70%;
 	margin-left:auto;
 	margin-right: auto;
-	border: 1px solid #e3e3e3;
 }
-table
-table, th, td{
-	border-collapse: 
-	background-color: orange;
-	border: 2px solid black;
+ th:hover {background-color: #ffffff; }
+ th{
+ background-color: #339966;
+}
+ table, tr, td, th{
+
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid black;
 }
